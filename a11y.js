@@ -19,7 +19,7 @@ async function runAccessibilityTest(url) {
     const page = await browser.newPage(); // Open a new page in the browser.
 
     // Navigate to the URL and wait for the load event.
-    await page.goto(url, { waitUntil: 'domcontentloaded' });
+    await page.goto(url, { waitUntil: 'load' });
 
     // Inject Axe-core script for accessibility testing
     await page.addScriptTag({ content: axeCore.source });
