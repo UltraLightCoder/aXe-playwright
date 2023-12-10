@@ -12,6 +12,7 @@
     "axe-core": "^4.8.2",
     "axios": "^1.6.2",
     "cheerio": "^1.0.0-rc.12",
+    "config": "^3.3.9",
     "csv-writer": "^1.6.0",
     "delay": "^6.0.0",
     "jsdom": "^23.0.1",
